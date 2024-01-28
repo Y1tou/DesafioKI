@@ -45,7 +45,7 @@ $sql = $conexion->query(" select * from personas where id=$id ");
     <!-- Formulario de datos de la Persona -->
     <h1 class="text-center p-3 bg-info text-white">Desafio KIS</h1>
 
-    <form class="col-4 p-3 m-auto" method="POST">
+    <form class="col-md-4 col-12 p-3 m-auto" method="POST">
         <h3 class="text-center text-secondary">Modificar datos</h3>
         <input type="hidden" name="id" value="<?= $_GET["id"] ?>">
         <?php

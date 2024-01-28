@@ -64,7 +64,7 @@
             ?>
         </div>
 
-        <div class="col-8 p-10 m-auto table-responsive border border-warning" style="border-radius: 15px;">
+        <div class="col-md-8 col-11 p-10 m-auto table-responsive border border-warning" style="border-radius: 15px;">
             <!-- Tabla con datos ya registrados -->
             <?php
             include "conexion/conexion.php";

@@ -42,7 +42,7 @@
 
     <div class="container-fluid row">
         <!-- Formulario de datos de la Persona -->
-        <form class="col-4 p-3 m-auto" method="POST">
+        <form class="col-md-4 col-12 p-3 m-auto" method="POST">
             <h3 class="text-center text-secondary">Formulario de registro</h3>
             <?php
             include "conexion/conexion.php";
